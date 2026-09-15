@@ -19,7 +19,6 @@ class Coffee:
             self._size = None
 
     def tip(self):
-        print("This coffee is great, here's a tip!")
+        print("This coffee is great, here\u2019s a tip!")
         if self.price is not None:
             self.price += 1
-    
